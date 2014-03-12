@@ -1,7 +1,7 @@
 
-# metalsmith-markdown
+# metalsmith-brucedown
 
-  A Metalsmith plugin to convert markdown files.
+  A Metalsmith plugin to convert markdown files through [brucedown](https://www.npmjs.org/package/brucedown).
 
 ## Installation
 
@@ -9,32 +9,22 @@
 
 ## CLI Usage
 
-  Install via npm and then add the `metalsmith-markdown` key to your `metalsmith.json` plugins with any [Marked](https://github.com/chjj/marked) options you want, like so:
+  Install via npm and then add the `metalsmith-brucedown` key to your `metalsmith.json`.
 
 ```json
 {
   "plugins": {
-    "metalsmith-markdown": {
-      "smartypants": true,
-      "gfm": true,
-      "tables": true
-    }
+    "metalsmith-brucedown": {}
   }
 }
 ```
 
 ## Javascript Usage
 
-  Pass `options` to the markdown plugin and pass it to Metalsmith with the `use` method:
-
 ```js
-var markdown = require('metalsmith-markdown');
+var brucedown = require('metalsmith-brucedown');
 
-metalsmith.use(markdown({
-  smartypants: true,
-  gfm: true,
-  tables: true
-}));
+metalsmith.use(brucedown());
 ```
 
 ## License

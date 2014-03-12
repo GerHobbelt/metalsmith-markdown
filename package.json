@@ -1,13 +1,14 @@
 {
-  "name": "metalsmith-markdown",
+  "name": "metalsmith-brucedown",
   "description": "A Metalsmith plugin to convert markdown files.",
-  "repository": "git://github.com/segmentio/metalsmith-markdown.git",
-  "version": "0.2.1",
+  "repository": "git://github.com/liketv/metalsmith-brucedown.git",
+  "version": "0.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "marked": "~0.3.1",
-    "debug": "~0.7.4"
+    "debug": "~0.7.4",
+    "brucedown": "^0.1.1",
+    "async": "^0.2.10"
   },
   "devDependencies": {
     "mocha": "1.x",
