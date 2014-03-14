@@ -2,7 +2,7 @@
   "name": "metalsmith-brucedown",
   "description": "A Metalsmith plugin to convert markdown files.",
   "repository": "git://github.com/liketv/metalsmith-brucedown.git",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
